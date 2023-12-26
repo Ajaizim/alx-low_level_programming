@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * simple_print_buffer - prints buffer in hexa
@@ -9,9 +9,9 @@
  *
  * Return: 0
  */
-void simpe_print_buffer(char *buffer, unsigned int size)
+void simple_print_buffer(char *buffer, unsigned int size)
 {
-	unsigned in i;
+	unsigned int i;
 
 	i = 0;
 	while (i < size)
